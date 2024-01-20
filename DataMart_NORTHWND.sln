@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Load_NORTHWND", "DataMart_NORTHWND\Load_NORTHWND.dtproj", "{8E5C671E-E8C0-4B53-B01C-9F15DCBD7897}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Stage_Northwnd", "Stage_Northwnd\Stage_Northwnd.dtproj", "{0EB6CA2F-24C5-4476-82F9-79337F4AF88D}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Data_Mart_Northwnd", "Data_Mart_Northwnd\Data_Mart_Northwnd.dtproj", "{DEB914A9-D7BB-434C-B698-B7890F6E2D07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E5C671E-E8C0-4B53-B01C-9F15DCBD7897}.Development|Default.ActiveCfg = Development
+		{8E5C671E-E8C0-4B53-B01C-9F15DCBD7897}.Development|Default.Build.0 = Development
+		{0EB6CA2F-24C5-4476-82F9-79337F4AF88D}.Development|Default.ActiveCfg = Development
+		{0EB6CA2F-24C5-4476-82F9-79337F4AF88D}.Development|Default.Build.0 = Development
+		{DEB914A9-D7BB-434C-B698-B7890F6E2D07}.Development|Default.ActiveCfg = Development
+		{DEB914A9-D7BB-434C-B698-B7890F6E2D07}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EC1FF3C-6A46-4D28-BE11-E66127909033}
+	EndGlobalSection
+EndGlobal
